@@ -355,6 +355,7 @@ type Product = {
         additionalPrice: 6,
       },
     ],
+    
   };
   
   
@@ -363,7 +364,7 @@ type Product = {
     slug: string;
     title: string;
     desc?: string;
-    img?: string;
+                    img?: string;
     color: string;
   }[];
   
